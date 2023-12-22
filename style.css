@@ -1,0 +1,90 @@
+body {
+  background-color: rgb(61, 56, 63);
+  color: white;
+  cursor: url("bahan/icons8-minecraft-sword-48.png") 5 5, auto;
+}
+hr {
+  height: 2px;
+  color: rgb(247, 243, 243);
+  background-color: rgb(247, 245, 245);
+  width: 95%;
+}
+
+li {
+  margin-top: 1%;
+  margin-bottom: 1%;
+  font-size: 120%;
+}
+
+.contents {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.child-content {
+  border: 2px solid rgb(252, 246, 246);
+  padding-bottom: 2%;
+  margin-bottom: 1%;
+}
+
+.button {
+  padding-left: 1%;
+  padding-right: 1%;
+  font-size: 140%;
+}
+
+.answer-button {
+  margin-left: 2%;
+  margin-right: 2%;
+  padding: 2%;
+  font-size: 140%;
+  width: 12%;
+}
+
+#total-stats {
+  float: right;
+  width: 40%;
+  height: 50%;
+}
+
+#gameboard {
+  float: left;
+  width: 55%;
+  height: 40%;
+}
+
+#session-stats {
+  float: left;
+  margin-top: 1%;
+  width: 55%;
+}
+
+#instructions {
+  float: right;
+  margin-top: 1%;
+  width: 40%;
+}
+
+#instructions-list {
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+#bg {
+  background-color: rgba(47, 123, 128, 0.32);
+  width: 50%;
+  height: 40%;
+}
+
+.button,
+.answer-button,
+li,
+.contents,
+.child-content,
+#total-stats,
+#gameboard,
+#session-stats,
+#instructions,
+#instructions-list {
+  cursor: inherit;
+}
